@@ -14,6 +14,15 @@
    b) "Sophie"
 */
 
+function direBonjour(prenom) {
+    let message="Bonjour"
+    console.log(`${message} ${prenom} !`);
+    return message;
+}
+
+direBonjour("Baptiste");
+direBonjour("Sofie");
+
 // RETURN, PORTÉE DE VARIABLE, PARAMÈTRE - RÉSUMÉ GLOBAL :
 /*
 Le RETURN, la VARIABLE GLOBALE et le PARAMÈTRE sont
@@ -23,3 +32,5 @@ les trois MOYENS DE COMMUNICATION d'une fonction avec le reste du code :
 	  (rendre une info disponible partout)
   - Le PASSAGE DE PARAMÈTRE pour FAIRE ENTRER UNE DONNÉE DANS UNE FONCTION
 */
+
+

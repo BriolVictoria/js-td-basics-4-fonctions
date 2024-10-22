@@ -12,6 +12,19 @@ N.B. Faites deux versions :
    - en utilisant une arrow function
 */
 
+function calcMin(a,b) {
+    if (a<b) {
+        return a;
+    } else {
+        return b;
+    }
+}
+
+console.log(calcMin(4.5, 5));
+console.log(calcMin(19, 9));
+console.log(calcMin(1, 1));
+
+
 // Syntaxe classique
 
 
@@ -25,6 +38,10 @@ N.B. Faites deux versions :
 
 // Version encore plus concise avec une arrow function
 const calcMinConcise = (a, b) => (a < b) ? a : b;
+console.log(calcMin(4.5, 5));
+console.log(calcMin(19, 9));
+console.log(calcMin(1, 1));
+
 
 // Utilisation de la fonction calcMinConcise pour calculer le minimum
 

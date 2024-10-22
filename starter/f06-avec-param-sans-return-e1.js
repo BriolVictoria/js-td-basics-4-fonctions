@@ -1,6 +1,6 @@
 /*****************************
-* 020 - Fonctions - Préalable
-*/
+ * 020 - Fonctions - Préalable
+ */
 
 // 4. PASSAGE DE PARAMÈTRE : FONCTION AVEC PARAMÈTRE (SANS RETURN)
 
@@ -10,11 +10,11 @@
 1. a) Déclarez une fonction appelée double3 qui affiche dans la console 'Le double de 3 est  '.
    b) Appelez cette fonction.
 
-// Imaginons à présent qu'on a besoin de calculer le double d'autres nombres 
+// Imaginons à présent qu'on a besoin de calculer le double d'autres nombres
 // On a besoin de déclarer une fonction pour calculer le double de 10
 // et puis de déclarer une AUTRE fonction pour calculer le double de 24
 // et puis de déclarer une AUTRE fonction pour calculer le double de 128
-// etc. et ainsi de suite à chaque fois qu'on veut calculer le double d'un nouveau nombre 
+// etc. et ainsi de suite à chaque fois qu'on veut calculer le double d'un nouveau nombre
 */
 
 /*
@@ -23,6 +23,20 @@
 // Dans ce cas, vous devez penser à créer une seule fonction qui prend un paramètre :
 // le nombre dont on veut calculer le double.
 */
+
+/*function double3() {
+    console.log(`Le double de 3 est ${3 * 2}`)
+}
+
+double3();
+
+function double(nombre) {
+    console.log('Le double de ' + nombre + ' est ' + (nombre *2))
+}
+
+double(10);
+double(24);
+double(128);*/
 
 
 // 2°) Une fonction avec paramètre à la place de toutes celles-là :
@@ -36,3 +50,12 @@
                      - le double de 24 ;
                      - le double de 128.
 */
+
+function double(nombre) {
+    console.log(`Le double de ${nombre} est ${nombre * 2} `)
+}
+
+double (3);
+double (10);
+double(24);
+double (128);

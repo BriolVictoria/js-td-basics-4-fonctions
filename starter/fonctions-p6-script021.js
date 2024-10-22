@@ -13,9 +13,21 @@
 */
 
 const whatDoYouDo = function(job, firstName) {
+    console.log(`${firstName} est ${job}`);
     // Utilisez des conditions (if/else if) pour décrire le job de la personne en fonction de la valeur de 'job'.
     // Renvoyez la phrase appropriée en utilisant un return.
-};
+    if (job === "teacher") {
+        return "teaches kids how to code";
+    } else if (job === "driver") {
+        return "drives a cab in Lisbon";
+    } else if (job === "designer") {
+        return "designs beautiful websites";
+    } else {
+        return "does something else";
+    }
+}
+
+
 
 /*
 2. Utilisez cette fonction pour afficher dans la console ce que font :
@@ -23,3 +35,6 @@ const whatDoYouDo = function(job, firstName) {
     - Jane (designer)
     - Mark (retired)
 */
+console.log(whatDoYouDo("teacher", "John"));
+console.log(whatDoYouDo("designer", "Jane"))
+console.log(whatDoYouDo("retired", "Mark"))

@@ -17,6 +17,15 @@
 - Déclarez la fonction ci-dessus en utilisant la syntaxe "fat arrow function"
 - Utilisez-la pour saluer Thomas dans la console
 */
+const bonjour = (prenom)=> {
+    console.log('Bonjour, ' + prenom + '!')
+    return bonjour;
+}
+
+bonjour("Thomas");
+
+
+
 
 // Fonction anonyme avec la syntaxe "fat arrow function"
 
@@ -39,6 +48,7 @@ N.B. Dans certains cas particuliers, on peut simplifier la syntaxe des fonctions
 
 // Fonction anonyme avec la syntaxe simplifiée
 
+prenom => console.log()
 
 // Utilisation de la fonction pour saluer Thomas dans la console
 

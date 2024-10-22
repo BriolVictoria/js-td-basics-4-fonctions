@@ -14,14 +14,21 @@
 - Exécutez la fonction
 */
 
+/*
 // Expression de fonction sans paramètre ni return
+
+const direBonjour=function () {
+    console.log("Bonjour !")
+}
 
 
 // Appel de la fonction
 
-
+direBonjour()
 
 // b) sans paramètre mais avec return
+*/
+
 
 /* EXERCICE 2 :
 - Déclarez sous la forme d'une expression de fonction
@@ -30,11 +37,18 @@
 */
 
 // Expression de fonction sans paramètre mais avec return
-;
+
+
+const direBonjour=function () {
+    return "Bonjour !"
+}
+
+direBonjour();
+
+console.log(direBonjour());
+
 
 // Utilisation de la fonction pour afficher "Bonjour !" dans la console
-
-
 
 // c) avec paramètre et return
 
@@ -49,3 +63,15 @@
 // Expression de fonction avec paramètre et return
 
 // Utilisation de la fonction pour saluer Thomas dans la console
+
+
+const salue=function (prenom) {
+    let message="Bonjour"
+    console.log(`${message} ${prenom}`);
+    return message;
+}
+
+salue("thomas");
+
+
+
