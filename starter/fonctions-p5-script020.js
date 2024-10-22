@@ -21,8 +21,8 @@ Utilisez la fonction calculateAge que vous venez de créer pour calculer
 
 function calculateAge (birthYear) {
     const currentYear = 2024;
-    const calcule = currentYear - birthYear;
-    return calcule;
+    const age = currentYear - birthYear;
+    return age;
 }
 
 console.log(`John à ${calculateAge(1990)}`)

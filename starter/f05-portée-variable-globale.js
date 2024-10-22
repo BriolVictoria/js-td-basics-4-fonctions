@@ -114,6 +114,13 @@ function affiche2() {
 affiche2();
 
 /*
+function affiche2() {
+    const nbre2=3;
+    console.log(`Dans affiche2 : nbre2 = ${nbre2}` )
+    console.log(`Dans affiche2 : nbre1 = ${nbre1}`)
+} */
+
+/*
 RESUME :
 - Portée d'une variable = ensemble des endroits où elle est accessible
 - Variable locale : accessible que dans le corps de la fonction où elle se trouve

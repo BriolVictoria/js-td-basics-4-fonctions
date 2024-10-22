@@ -26,6 +26,9 @@ function calculer(nb1, operateur, nb2) {
             resultat = nb1 * nb2;
             break;
         case "/":
+            if (nb2 === 0) {
+                return "Infinity";
+            }
             resultat = nb1 / nb2;
             break;
         default:
